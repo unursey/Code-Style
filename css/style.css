@@ -1,0 +1,87 @@
+.body {
+    font-family: roboto, sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    font-weight: 400;
+    background-image: url("../image/kotik.jpg");
+    background-size: contain;
+}
+
+.text {
+  margin: 10px 0;
+}
+
+.hide {
+    display: none;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 200px;
+    text-align: center;
+}
+
+.title {
+    padding-top: 50px;
+    color: azure;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.subsubtitle {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: azure;
+    border: 3px solid #cccccc;
+    border-radius: 10px;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+}
+
+.item {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.item:before {
+    content: "—";
+    position: absolute;
+    left: -23px;
+}
+
+.block-image {
+    display: flex;
+    justify-content: normal;
+    flex-wrap: wrap;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.image {
+    margin-top: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+.interval-text {
+    margin: 0;
+}
+
+.line-left {
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 2px solid #ccc;
+}
