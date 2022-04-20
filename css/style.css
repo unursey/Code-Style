@@ -15,15 +15,10 @@
     display: none;
 }
 
-.header {
-    margin: 0 auto;
-    max-width: 1200px;
-    height: 200px;
-    text-align: center;
-}
 
 .title {
     padding-top: 50px;
+    padding-bottom: 50px;
     color: azure;
     font-size: 40px;
     font-weight: 900;
